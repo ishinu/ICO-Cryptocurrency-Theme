@@ -1,0 +1,42 @@
+.messages {
+    overflow: auto;
+    width: 100vw;
+    max-height: 100vh;
+    padding: 1rem .9rem;
+}
+.bubble {
+    overflow: hidden;
+    display: inline-block;
+    margin: 0 0 .125rem 0;
+    padding: .5rem .85rem;
+    line-height: 1.25rem;
+    border-radius: 1.25rem;
+    transform-origin: 0 100%;
+    vertical-align: middle;
+    transition: border-radius .25s ease-out .075s;
+}
+.bubble.left.cornered {
+    border-bottom-left-radius: 0;
+}
+.bubble.left {
+    background: rgba(206,206,206,0.50);
+}
+.bubble span {
+    display: block;
+}
+.bubble span.message {
+    opacity: 0;
+}
+.bubble a {
+    color: #0076FF;
+}
+.bubble .loading {
+    position: absolute;
+    width: 2.25rem;
+    font-size: 2rem;
+    line-height: 1rem;
+}
+.bubble .loading b {
+    display: inline-block;
+    color: rgba(0,0,0,.5);
+}

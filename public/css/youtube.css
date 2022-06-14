@@ -1,0 +1,65 @@
+#back_to_home1 {
+    float: left;
+    clear: left;
+}
+
+#back_to_home2 {
+    float: right;
+    clear: left;
+}
+
+#back_to_home1:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    color: rgb(136, 189, 52);
+}
+#back_to_home2:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    color: rgb(136, 189, 52);
+}
+
+/* For all youtube playlist spans */
+.right_side_yt {
+    position: fixed;
+    right: 2%;
+    top: 2%;
+
+    color: #48633c;
+    font-family: 'Space Mono', monospace;
+    font-size: 0.8rem;
+}
+
+a{
+    color: #48633c;
+}
+
+.left_side_yt {
+    position: fixed;
+    left: 2%;
+    top: 2%;
+
+    color: #48633c;
+    font-family: 'Space Mono', monospace;
+    font-size: 0.8rem;
+}
+
+.left_side_yt span {
+    float: left;
+    clear: left;
+    padding-top: 15%;
+    padding-left: 8%;   
+}
+
+.right_side_yt span {
+    float: right;
+    clear: right;
+    padding-top: 15%;
+    padding-left: 8%;
+}
+
+[id^=yt]:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    color: rgb(136, 189, 52);
+}

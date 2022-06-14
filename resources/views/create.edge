@@ -1,0 +1,101 @@
+@layout('layouts.main');
+
+@section('title')
+    Create Order - WAVE
+@endsection
+
+@section('extracss')
+
+{{ style('createcss') }} 
+
+@endsection
+
+@section('content')
+
+<header>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6 col-md-4 logo">
+                <a href="#" title="WAVE">
+                    <h1>~WAVE</h1>
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-8 main-menu">
+                <div class="menu-icon">
+                  <span class="top"></span>
+                  <span class="middle"></span>
+                  <span class="bottom"></span>
+                </div>
+                <nav class="onepage">
+                    <ul>
+                        <li class="active"><a href="#top">Home</a></li>
+                        <li><a href="/">About</a></li>
+                        <li><a href="/">How to Buy</a></li>
+                        <li><a href="/">RoadMap</a></li>
+                        <li><a href="/">Whitepaper</a></li>
+                        <li class="nav-btn"><a href="/buynow">Buy Now</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+
+<section class="sectionone-wrapper">
+    <div class="card text-center orderbox">
+        <div class="card-body">
+            <div class="row">
+                <div class="col-12">
+                  <p><span class="specialfive">How many USD ($) you want to Invest?</span></p>
+                  <form class="input-group">
+                      <span class="input-group-text" id="basic-addon1">$</span>
+                      <input type="text" class="form-control" value="10" min="10" max="1000000" aria-label="Amount" aria-describedby="basic-addon1">
+                  </form>                
+                </div>
+                <div class="col-12 w-100"></div>
+                <div class="col-6">
+                <p class="card-text">Min: $ 10, Max: $ 1000000</p>
+                </div>
+                <div class="col-6">
+                    <p class="card-text">1 WAVE = $ 0.00009 USD</p>
+                </div>
+            </div>
+            <hr/>
+            <div class="row align-items-center">
+                <div class="col-12 mx-auto w-100">
+                    You will receive
+                </div>
+                <div class="col-12 mx-auto my-2">
+                    <img src="logodemo.png" style="width:35px;height:35px"/><span class="somenew">123456 WAVE</span>
+                </div>
+            </div>
+            <hr/>
+            <div class="row align-items-center">
+                <div class="col-12 mx-auto w-100 mb-2">
+                    What do you want to pay with?
+                </div>
+                <div class="col-12 col-sm-6 specialsix">
+                    <button type="button" class="btn">123456 MATIC</button>
+                </div>
+                <div class="col-12 col-sm-6 specialsix">
+                    <button type="button" class="btn">123456 BNB</button>
+                </div>
+            </div>
+            <hr/>
+            <div class="row align-items-center">
+                <div class="col-12 mx-auto w-100">
+                    <h5>Switch Network to Polygon Mainnet</h5>
+                </div>
+            </div>
+          <a href="#"><button type="button" class="btn mt-2">Switch Network</button></a>
+        </div>
+      </div>
+</section>
+
+<footer class="footer-style light-bg text-center">
+    <i class="fa-solid fa-copyright"></i> 2022 WAVE. All rights reserved.
+</footer>
+
+@endsection

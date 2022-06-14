@@ -1,0 +1,71 @@
+body{
+    background:url("img/space.jpg");
+    background-attachment:fixed;
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+
+.footer-style{
+    position:absolute;
+    bottom:0;
+    z-index:99999;
+}
+
+
+.fake-sect{
+    margin:90px;
+    z-index:-1;
+    opacity:0;
+}
+
+.card{
+    width:650px !important;
+    z-index:2;
+}
+@media screen and (max-width:765px){
+    .card{
+        width:353px !important;
+    }
+    .footer-style{
+        position:absolute;
+        bottom:auto;
+        z-index:99999;
+    }
+    .orderbox{
+        margin:10px !important;
+        margin-top:0px;
+        margin-bottom:20px;
+    }
+    .sectionone-wrapper{
+        margin-top:140px !important;
+    }
+}
+.somenew{
+    letter-spacing:1px;
+    font-size:25px;
+    font-weight:bold;
+    color:black;
+    margin-left:15px;
+}
+
+.specialfive{
+    font-weight:900;
+}
+
+.specialsix{
+    border-radius:10px;
+    background:#fff;
+    padding:11px 25px;
+}
+
+.specialsix .btn{
+         padding:8px 18px !important;
+    }
+
+    .sectionone-wrapper{
+        margin-top:200px;
+    }
+
+
+  
+
